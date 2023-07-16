@@ -1,6 +1,11 @@
 #include <stdio.h>
+
+
 #include <stdlib.h>
+
+
 #include <time.h>
+
 
 
 /**
@@ -9,22 +14,17 @@
  */
 
 
-
 int main(void)
 
-{ 
+{
 
-	char low, e, q;
 
-	e = 'e';
-	q = 'q';
+	int i;
 
-	for (low = 'a'; low <= 'z'; low++)
-	{
-	if (low != e && low != q)
-	putchar(low);
-	}
-	putchar('\n');
+	for (i = 0; i < 10; i++)
+	printf("%d", i);
+	printf("\n");
+
 	return (0);
 
 }
