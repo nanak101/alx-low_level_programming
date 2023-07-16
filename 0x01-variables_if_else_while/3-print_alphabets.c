@@ -3,24 +3,21 @@
 
 /**
  * main - Entry point
- *
  * Return: Always 0 (Success)
  */
 
 int main(void)
+
 {
-int lowerCase = 'a';
-int upperCase = 'A';
-while (lowercase <= 'z')
-{
-putchar(lowerCase);
-lowerCase += 1;
-}
-while (upperCase <= 'z')
-{
-putchar(upperCase);			
-upperCase += 1;
-}
-putchar('\n');
-return (0);
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+
+	for (low = 'A'; low <= 'Z'; low++)
+	putchar(low);
+	putchar('\n');
+
+	return (0);
+
 }
