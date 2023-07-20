@@ -21,7 +21,5 @@ void print_most_numbers(void)
 	else
 	}
 	_putchar(x + '0');
-	}
-	}
 	_putchar('\n');
 }
