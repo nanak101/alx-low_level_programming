@@ -2,7 +2,7 @@
 /**
  * main - print the largest prime factor of the
  * number 612852475143
- * Reyurn: (0)
+ * Return: (0)
  */
 int main(void)
 {
