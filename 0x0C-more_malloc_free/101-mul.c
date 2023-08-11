@@ -64,7 +64,7 @@ int _checknum(char *argv[], int n)
 	int ln;
 
 	for (ln = 0; argv[n][ln]; ln++)
-		if (!isdigit(argv[n][ln]))
+		if (!(argv[n][ln]))
 		{
 			printf("Error\n");
 			exit(98);
