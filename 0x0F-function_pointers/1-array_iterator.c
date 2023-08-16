@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * @array: The array.
+ * @array: array.
  * @size: The size of array.
  * @action: A pointer to the function to be executed.
  */
